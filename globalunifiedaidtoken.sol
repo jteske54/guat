@@ -1,12 +1,4 @@
 /**
- *Submitted for verification at BscScan.com on 2021-03-01
-*/
-
-/**
- *Submitted for verification at BscScan.com on 2021-03-01
-*/
-
-/**
   
    #BEE
    
@@ -715,13 +707,13 @@ contract SafeMoon is Context, IERC20, Ownable {
     address[] private _excluded;
    
     uint256 private constant MAX = ~uint256(0);
-    uint256 private _tTotal = 1000000000 * 10**6 * 10**9;
+    uint256 private _tTotal = 1000000000 * 10**6 * 10**6;
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "SafeMoon";
-    string private _symbol = "SAFEMOON";
-    uint8 private _decimals = 9;
+    string private _name = "Global Unified Aid Token";
+    string private _symbol = "GUAT";
+    uint8 private _decimals = 6;
     
     uint256 public _taxFee = 5;
     uint256 private _previousTaxFee = _taxFee;
